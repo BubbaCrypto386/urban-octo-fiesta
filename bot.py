@@ -2,10 +2,10 @@ import openai
 import telegram
 
 # Set up your OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Set up your Telegram bot token
-bot = telegram.Bot(token="6165729604:AAFpWF-PKltmBBe91MasjjU72yaDZxs3Uac")
+bot = telegram.Bot(token="")
 
 # Define a function to generate responses
 def generate_response(prompt):
